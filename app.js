@@ -1,9 +1,9 @@
-const express = require('express');
+øconst express = require('express');
 const app = express();
 
 app.get('/hello', (req, res) => {
   res.json({
-    message: 'Hello from Kong + AKS!',
+    message: 'Hello from Kong + AKS- version 2!',
     timestamp: new Date().toISOString()
   });
 });
